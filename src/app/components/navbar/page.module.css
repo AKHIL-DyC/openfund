@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 100vw;
+    height: 6vh;
+    background-color:cornsilk;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    opacity: 0.6;
+}
+.button{
+    display: flex;
+    height:4vh;
+    width:5vw;
+    background-color:60941A;
+}
