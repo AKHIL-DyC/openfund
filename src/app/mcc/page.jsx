@@ -2,8 +2,8 @@ import Link from "next/link"
 
 export default function Component() {
   return (
-    <div className="bg-gray-50/90 border-t border-b border-gray-200 border-gray-200">
-      <div className="container px-4 py-6 md:py-12">
+    <div className="bg-gray-50/90 border-t border-b border-gray-200 border-gray-200 m-[50px]">
+      <div className="container px-4 py-6 md:py-12 m-[30px]">
         <div className="grid gap-6 md:gap-4 lg:grid-cols-3 lg:gap-10 xl:gap-16">
           <div className="space-y-4 lg:col-span-2 lg:space-y-6">
             <div className="space-y-2">
@@ -58,16 +58,12 @@ export default function Component() {
           <div className="lg:col-span-3">
             <div className="space-y-6">
               <div className="space-y-2">
-                <h2 className="text-xl font-semibold">Who We Help</h2>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Our center provides support to cancer patients of all ages.
+                <p className="text-gray-500 dark:text-gray-400">The Manjeri Cancer Care Foundation, situated in Manjeri, is dedicated to providing comprehensive support and care to cancer patients in the region. Through a network of healthcare professionals and volunteers, the foundation offers medical assistance, emotional support, and awareness programs aimed at fostering a compassionate and empowering environment for individuals battling cancer in Manjeri.
+
                 </p>
               </div>
               <div className="space-y-2">
-                <h2 className="text-xl font-semibold">How We Help</h2>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Through advanced treatments and compassionate care, we strive to improve the lives of those fighting
-                  cancer.
                 </p>
               </div>
             </div>
