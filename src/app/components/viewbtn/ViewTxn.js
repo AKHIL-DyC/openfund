@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './page.module.css'
 import Link from 'next/link'
-const View = () => {
+const ViewTxn = () => {
   return (
     <div className={styles.main}>
       <Link href={'https://open-fund-dashboard.vercel.app/'}>
@@ -11,4 +11,4 @@ const View = () => {
   )
 }
 
-export default View
+export default ViewTxn
