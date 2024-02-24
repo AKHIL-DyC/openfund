@@ -2,20 +2,26 @@
     display: flex;
     justify-content:space-between;
     align-items:center;
-    width: 100vw;
+    width: 97vw;
     height: 6vh;
     background-color:cornsilk;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 .text{
     display: flex;
     justify-content: space-between;
-    width: 40vw;
+    width: 50vw;
     opacity: 0.6;
 }
 .button{
     display: flex;
+    border-radius: 30px;
+    color:white;
     height:4vh;
+    justify-content: center;
+    align-items:center;
     width:5vw;
     background-color:60941A;
+    text-align: center;
 }

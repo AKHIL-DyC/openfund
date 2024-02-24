@@ -5,7 +5,7 @@ import logo from '/public/logo.webp'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Navbar/>
+    
       <div className={
         styles.content
        }>
