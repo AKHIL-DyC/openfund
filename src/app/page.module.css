@@ -22,6 +22,10 @@
   max-width: 30vw;
   height: 90vh;
 }
+.heading{
+  font-size:70px;
+  padding-bottom: 3vh;
+}
 .right{
   font-size: 35px;
   display: flex;
@@ -50,7 +54,7 @@
 
 }
 .tfield{
-
+  font-size: 30px;
   display: flex;
   justify-content: space-between;
   font-family:Poppins, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -63,18 +67,23 @@
 }
 .cardContainer{
   width: 70vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
-
   gap: 7vh;
   display: flex;
   flex-direction: column;
 }
 .card{
   width:70vw;
-  height: 27vh;
+  height: 33vh;
   display: flex;
-
+  border: 6px solid #ccc;
+  transition: border-color 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+.card:hover{
+  border-color: white; /* Darken border color on hover */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 .cleft{
   width:35vw;
@@ -90,11 +99,13 @@
   width: 35vw;
   height: inherit;
   text-align: center;
+  padding-top: 1vh;
   padding-right: 1vw;
   padding-left: 1vw;
   background-color:#F1F2FF;
 }
 .para{
+  padding-top: 3vh;
   letter-spacing: 1px; /* Adjust the letter spacing as needed */
   line-height: 1.5;
 }
