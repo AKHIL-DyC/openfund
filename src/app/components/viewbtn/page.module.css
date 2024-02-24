@@ -1,5 +1,9 @@
 .main{
-    width: 5vw;
-    height: 3vw;
-    background-color:C6C7F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 12vw;
+    height: 5vw;
+    background-color:lightblue;
 }
