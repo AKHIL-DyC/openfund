@@ -4,14 +4,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:12vh;
+    gap:8vh;
     justify-content: center;
     padding: 3vw;
     text-decoration: none;
 }
 .c1{
     width:70vw;
-    height: 30vh;
     box-shadow: 4px 4px 4px 4px rgba(0, 0,0,0.3);
     background-color: white;
     border-radius: 30px;
@@ -25,7 +24,6 @@
  
     display: flex;
     flex-direction: column;
-    height: 18vh;
     width: inherit;
     overflow: hidden;
     
@@ -37,4 +35,14 @@
     align-items: center;
     height: 10vh;
     width: 50vw;
+}
+
+.viewbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 12vw;
+    height: 5vw;
+    background-color:lightblue;
 }

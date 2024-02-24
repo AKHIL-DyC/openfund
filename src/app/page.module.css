@@ -23,12 +23,12 @@
   height: 90vh;
 }
 .right{
-  font-size: 40px;
+  font-size: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  width: 40vw;
+  font-family:Poppins, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width:45vw;
   height: inherit;
 }
 .green{
