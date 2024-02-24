@@ -14,7 +14,9 @@ const Navbar = () => {
         <h3>Donate</h3>
       </div>
   
-        <h4>LOGIN</h4>
+        <div className={styles.button}>
+          <h4>login</h4>
+        </div>
      
     </div>
   )
